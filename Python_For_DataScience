@@ -199,3 +199,29 @@ Topics inluded
 		
 	-- Deleting an element from a dictionary
 		-- Example 	-- del Dict1['Sathish'] ==> {'Dinesh' : 1000, 'Ganesh' : 2000, 'Prakash' : 3000, 'Venkat':4000}
+
+10. Understanding Standard Libraries in Python
+----------------------------------------------------------------------------------------------------
+	-- Packages
+		-- Modules
+			-- functions
+			
+
+11. Pandas
+----------------------------------------------------------------------------------------------------
+	-- Using pandas, you can do all the data manipulations, visualizations, etc 
+	-- It can read csv, excel, and JSON etc
+	-- import pandas as pd
+	-- df = read_csv("data.csv")
+	-- df.shape[0]  ==> no of rows will be returned
+	-- df.shape[1]  ==> no of columns will be returned
+	-- df.columns	==> list all the columns
+	-- df['column name']  ==> list only the specified column data
+	-- df[['col1', col2]] ==> list only the specified columns data
+	-- df.iloc[:5]		  ==> Select all the columns from first four rows
+	-- df.iloc[:,:2]	  ==> Select first two columns only
+	-- df.iloc[:,2] 	  ==> accessing third column
+	-- df.iloc[:,10:12]   ==> accessing last two columns
+	-- df.iloc[:,-2:]     ==> accessing last two columns
+	-- df.iloc[:,0:2].tail(10) ==> accessing last 10 rows with first two columns
+	
