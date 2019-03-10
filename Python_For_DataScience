@@ -1,0 +1,82 @@
+-------------------------------------------------------------------------------------
+Reference : https://courses.analyticsvidhya.com/courses/introduction-to-data-science
+Support	  : discuss.analyticsvidhya.com
+-------------------------------------------------------------------------------------
+EXPECTATION FROM THE COURSE
+-------------------------------------------------------------------------------------
+This course is divided into the below sections:
+
+	1.Introduction to Python
+	2.Understanding Operators
+	3.Variables and Data Types
+	4.Conditional Statements
+	5.Looping Constructs
+	6.Functions
+	7.Data Structure
+	8.Lists
+	9.Dictionaries
+   10.Understanding Standard Libraries in Python
+   11.Reading a CSV File in Python
+   12.Data Frames and basic operations with Data Frames
+   13.Indexing a Data Frame
+   
+1.Introduction to Python
+-----------------------------------------------------------------------------------------
+	-- Gives you basic idea about Python for Data Science
+	-- Aimed for Beginners
+	-- Its Open Source, general purpose language
+	-- It has very large collaborative developer community
+	-- Includes extensive number of packages 
+	
+Python Basics
+-----------------------------------------------------------------------------------------
+Topics inluded 
+	-- Operators
+	-- Variable and its naming conventions
+	-- Data Types in Python
+	-- Conditional Statements
+	-- Looping Statements
+	-- Functions
+	-- Packages in Python
+	-- Pandas library in Python
+	
+2. Operators
+-----------------------------------------------------------------------------------------
+	-- Symbolic Representationns of Mathematical Task
+	-- Types of Operators
+		-- Arithmetic  -- Add, Subtract, Multiply and Divide, etc
+		-- Comparison  -- >, <, >=, <=, ==, !=
+		-- Logical	   -- and, or, not
+
+3. Variables
+-----------------------------------------------------------------------------------------
+	-- Variables are Named representation of objects
+	-- Python is case sensitive 
+		-- so a = 5 and A = 5 are not the same
+		-- variable cannot start with special character other than underscore
+			-- _sam = 1 is valid
+			-- #sam = 1 is not valid
+		-- variable name cannot start with a number
+			-- 7sam = 1 is not valid
+
+4. Data Types
+-----------------------------------------------------------------------------------------
+	-- Data Types
+		-- int
+		-- float
+		-- string
+		-- bool
+		
+	-- type('X') gives the data type of an object
+	
+5. Conditional Statements
+-----------------------------------------------------------------------------------------
+	-- if(condition):
+			statement1
+	   elid(condition):
+			statement2
+	   else:
+			statement3
+
+6. Looping Constructs
+-----------------------------------------------------------------------------------------
