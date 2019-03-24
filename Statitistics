@@ -36,5 +36,31 @@ variablilty:
   -- Staff B --> Mean (12 + 5 + 14 + 6 + 8)/5    = 9
   
   -- If we look up, mean is same, but it does not show us the variablilty in the data
-  -- 
+  -- To measure the variablity, check the RANGE R = Xmax - Xmin
+  -- Staff A --> Range = 10 - 8 = 2
+  -- Staff B --> Range = 14 - 5 = 9 
   
+  -- Even Range will not give the variablity, as it will leave the gap between the adjacent points
+  -- So go with the Absolute mean Difference as below 
+  -----------------------------------------------------
+  Staff A                             Staff B
+  X   X'  X-X' |X-X'| (X-X')^2         X   X'  X-X' |X-X'| (X-X')^2
+  ----------------------------------------------------------------------
+  8.5  9  -0.5  0.5   0.25             12  9   3   3      9
+  10   9   1    1     1                 5  9  -4   4     16
+  8    9  -1    1     1                14  9   5   5     25
+  9    9   0    0     0                 6  9  -3   3      9
+  9.5  9  -0.5  0.5   0.25              8  9  -1   1      1
+          -----------------             ------------------------
+      Sum  0    0.6   0.5                      0   3.2   12
+  -----------------------------------------------------------------
+        Sum of X-X' = 0 always  
+        So consider taking absoute |X-X'| to calculate the variablity, But this is also not a vital solution.
+        To conclude, take square of (X-X') to calculate the variablity
+        S^2 = variance = (1/n E (X-X')^2)^1/2
+        
+ Even variance will not hold good in many situtation.
+ -- Coefficient = Standard_deviation/(Average) --> will give you actual picture
+        
+ 
+        
