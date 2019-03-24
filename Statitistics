@@ -6,9 +6,35 @@ Descriptive statistics  -- Organizing, summarizing, describing the details
                         -- Then we get the Inferential details about the data
                         
                         
-Central Tendency -->  Average or Middle or Arithmetic Mean
+Central Tendency also called means -->  Average or Middle or Arithmetic Mean
                  --   Example :
                       4 3 1 6 1 7
                  Mean = (4+3+1+6+1+7)/6 = 22/6      = 3.6
                  Median = 1 1 3 4 6 7   = (3 + 4)/2 = 3.5
-                 Mode   = Most Common Number (1 1 3 4 6 7 ) = 1
+                 Mode   = Most Common Number (1 1 3 4 6 7) = 1
+                 
+                 
+variablilty:
+--------------
+  -- from  the data, we could describe and find the data pattern ( if the data is similar/different )
+  -- Example : Carrots from a particular field will be of same size, whereas from the other fields, the size may not be uniform
+               Colors might be similar or varied
+               
+  -- We can find the variablility as below
+  -- Consider Staff A and Staff B and their working hours
+  
+  Staff A               Staff B
+  -------               -------
+  8.5                   12
+  10                    5
+  8                     14
+  9                     6
+  9.5                   8
+  
+  -- From the above data, if you use central tendency we will not be able to find the pattern correctly as below
+  -- Staff A --> Mean (8.5 + 10 + 8 + 9 + 9.5)/5 = 9
+  -- Staff B --> Mean (12 + 5 + 14 + 6 + 8)/5    = 9
+  
+  -- If we look up, mean is same, but it does not show us the variablilty in the data
+  -- 
+  
